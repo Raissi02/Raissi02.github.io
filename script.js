@@ -1,11 +1,4 @@
 
-function toggleMenu() {
-  const menu = document.querySelector(".menu-links");
-  if (menu) {
-    menu.style.display = menu.style.display === "block" ? "none" : "block";
-  }
-}
-
 function submitQuiz() {
   var score = 0;
   var totalQuestions = 15; 
